@@ -1,0 +1,71 @@
+.pageDiv{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.checkDisplay{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px 5px 5px 20px;
+}
+
+.sectionHeadline{
+    text-align: center;
+}
+.sectionTitle{
+    font-size: 20px;
+}
+
+.insurancePartners{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.inspectionPartners{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.buyerSelection{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 80px;
+}
+
+.buyerSelection p {
+    margin: 0;
+}
+
+.note{
+    text-align: center;
+}
+
+.pageDiv Button{
+    align-content: center;
+}
+
+.swal2-container {
+    z-index: 2000;
+}
